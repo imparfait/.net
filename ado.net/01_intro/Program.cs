@@ -1,4 +1,5 @@
 ﻿using System.Data.SqlClient;
+
 namespace _01_intro
 {
     internal class Program
@@ -89,7 +90,7 @@ namespace _01_intro
                 InsertTable(salesInsertQuery);
             }
         }
-    static void Main(string[] args)
+        static void Main(string[] args)
         {
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
@@ -137,7 +138,7 @@ namespace _01_intro
                 }
             }
         }
-         private static void ShowAllCustomers()
+        private static void ShowAllCustomers()
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
