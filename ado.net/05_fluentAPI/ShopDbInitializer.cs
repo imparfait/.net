@@ -1,12 +1,11 @@
 ﻿using _05_fluentAPI.classes;
-using _05_fluentAPI.tables;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Seed;
-using System.Data.Entity;
+
 
 public class ShopDbInitializer : DropCreateDatabaseIfModelChanges<ShopDbContext>
 {
-    protected override void Seed(ShopDbContext context)
+    public override void Seed(ShopDbContext context)
     {
         var countries = new List<Country>
         {

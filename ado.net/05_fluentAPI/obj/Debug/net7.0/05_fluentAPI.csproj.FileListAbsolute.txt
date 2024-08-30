@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\бб\dotNET\ado.net\05_fluentAPI\obj\Debug\net7.0\05_fluentAPI.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\бб\dotNET\ado.net\05_fluentAPI\obj\Debug\net7.0\05_fluentAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\бб\dotNET\ado.net\05_fluentAPI\obj\Debug\net7.0\05_fluentAPI.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\бб\dotNET\ado.net\05_fluentAPI\obj\Debug\net7.0\05_fluentAPI.AssemblyInfo.cs
+C:\Users\User\Desktop\бб\dotNET\ado.net\05_fluentAPI\obj\Debug\net7.0\05_fluentAPI.csproj.CoreCompileInputs.cache

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _05_fluentAPI.tables
+namespace _05_fluentAPI.classes
 {
     public class Position
     {

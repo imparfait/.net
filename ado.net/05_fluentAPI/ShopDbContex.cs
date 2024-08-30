@@ -1,5 +1,4 @@
 ﻿using _05_fluentAPI.classes;
-using _05_fluentAPI.tables;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Reflection.Emit;

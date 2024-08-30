@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            using (var context = new ShopDbContext())
+            {
+                context.Database.Migrate();
+                var initializer = new ShopDbInitializer();
+                initializer.Seed(context);
+            }
+
+            Console.WriteLine("Database has been initialized with seed data.");
         }
     }
 }
