@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _05_fluentAPI.classes
 {
-    internal class Country
+    public class Country
     {
         public int Id { get; set; }
         public string Name { get; set; }
