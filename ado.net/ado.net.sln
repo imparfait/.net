@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_intro", "01_intro\01_int
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_entityCodeFirst", "03_entityCodeFirst\03_entityCodeFirst.csproj", "{46B69D71-8AE2-4477-96C2-F3E872B65E9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_fluentAPI", "05_fluentAPI\05_fluentAPI.csproj", "{C2038A80-E200-4FC6-A13E-29D55AFF7E59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_fluentAPI", "05_fluentAPI\05_fluentAPI.csproj", "{C2038A80-E200-4FC6-A13E-29D55AFF7E59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam_", "Exam_\Exam_.csproj", "{A88F875F-D3BB-4BE5-9639-DF49A14D1712}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "music_store", "musicStore\music_store.csproj", "{549CC914-81A8-4AAD-8AA1-3B47D619D457}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{C2038A80-E200-4FC6-A13E-29D55AFF7E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2038A80-E200-4FC6-A13E-29D55AFF7E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2038A80-E200-4FC6-A13E-29D55AFF7E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A88F875F-D3BB-4BE5-9639-DF49A14D1712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88F875F-D3BB-4BE5-9639-DF49A14D1712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88F875F-D3BB-4BE5-9639-DF49A14D1712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88F875F-D3BB-4BE5-9639-DF49A14D1712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549CC914-81A8-4AAD-8AA1-3B47D619D457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549CC914-81A8-4AAD-8AA1-3B47D619D457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549CC914-81A8-4AAD-8AA1-3B47D619D457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549CC914-81A8-4AAD-8AA1-3B47D619D457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

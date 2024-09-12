@@ -3,3 +3,4 @@ C:\Users\User\Desktop\бб\dotNET\ado.net\05_fluentAPI\obj\Debug\net7.0\05_fluen
 C:\Users\User\Desktop\бб\dotNET\ado.net\05_fluentAPI\obj\Debug\net7.0\05_fluentAPI.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\бб\dotNET\ado.net\05_fluentAPI\obj\Debug\net7.0\05_fluentAPI.AssemblyInfo.cs
 C:\Users\User\Desktop\бб\dotNET\ado.net\05_fluentAPI\obj\Debug\net7.0\05_fluentAPI.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\бб\dotNET\ado.net\05_fluentAPI\obj\Debug\net7.0\05_fluentAPI.sourcelink.json
