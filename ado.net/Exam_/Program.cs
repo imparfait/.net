@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Exam_.classes;
+﻿using Exam_.classes;
 
 namespace Exam_
 {
