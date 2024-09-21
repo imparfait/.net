@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\ado.net\\musicstore\\music_store.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|solutionrelative:musicstore\\music_store.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\ado.net\\musicstore\\musicstorecontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|solutionrelative:musicstore\\musicstorecontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\ado.net\\musicstore\\classes\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|solutionrelative:musicstore\\classes\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\ado.net\\musicstore\\classes\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|solutionrelative:musicstore\\classes\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\ado.net\\musicstore\\classes\\vynil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|solutionrelative:musicstore\\classes\\vynil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\ado.net\\musicstore\\classes\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|solutionrelative:musicstore\\classes\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\ado.net\\musicstore\\classes\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{549CC914-81A8-4AAD-8AA1-3B47D619D457}|musicStore\\music_store.csproj|solutionrelative:musicstore\\classes\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A88F875F-D3BB-4BE5-9639-DF49A14D1712}|Exam_\\Exam_.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\ado.net\\exam_\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88F875F-D3BB-4BE5-9639-DF49A14D1712}|Exam_\\Exam_.csproj|solutionrelative:exam_\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\classes\\Sale.cs",
+              "RelativeDocumentMoniker": "musicStore\\classes\\Sale.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\classes\\Sale.cs",
+              "RelativeToolTip": "musicStore\\classes\\Sale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:20:14.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Promotion.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\classes\\Promotion.cs",
+              "RelativeDocumentMoniker": "musicStore\\classes\\Promotion.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\classes\\Promotion.cs",
+              "RelativeToolTip": "musicStore\\classes\\Promotion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:19:26.075Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
@@ -39,53 +69,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Sale.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\classes\\Sale.cs",
-              "RelativeDocumentMoniker": "musicStore\\classes\\Sale.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\classes\\Sale.cs",
-              "RelativeToolTip": "musicStore\\classes\\Sale.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T16:15:02.803Z",
+              "Title": "music_store",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\music_store.csproj",
+              "RelativeDocumentMoniker": "musicStore\\music_store.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\music_store.csproj",
+              "RelativeToolTip": "musicStore\\music_store.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-21T12:14:24.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Vynil.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\classes\\Vynil.cs",
-              "RelativeDocumentMoniker": "musicStore\\classes\\Vynil.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\classes\\Vynil.cs",
-              "RelativeToolTip": "musicStore\\classes\\Vynil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MusicStoreContex.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\MusicStoreContex.cs",
+              "RelativeDocumentMoniker": "musicStore\\MusicStoreContex.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\MusicStoreContex.cs",
+              "RelativeToolTip": "musicStore\\MusicStoreContex.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswCoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T16:15:01.016Z",
+              "WhenOpened": "2024-09-21T12:03:19.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\classes\\Reservation.cs",
-              "RelativeDocumentMoniker": "musicStore\\classes\\Reservation.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\classes\\Reservation.cs",
-              "RelativeToolTip": "musicStore\\classes\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\Exam_\\Program.cs",
+              "RelativeDocumentMoniker": "Exam_\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\Exam_\\Program.cs",
+              "RelativeToolTip": "Exam_\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAlwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T16:14:59.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\classes\\Customer.cs",
-              "RelativeDocumentMoniker": "musicStore\\classes\\Customer.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\ado.net\\musicStore\\classes\\Customer.cs",
-              "RelativeToolTip": "musicStore\\classes\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T16:14:27.21Z",
+              "WhenOpened": "2024-09-12T16:15:11.654Z",
               "EditorCaption": ""
             }
           ]

@@ -10,5 +10,7 @@
         public DateTime SaleDate { get; set; }
         public int Quantity { get; set; }
         public decimal TotalPrice { get; set; }
+        public int PromotionId {  get; set; }
+        public Promotion Promotion { get; set; }
     }
 }

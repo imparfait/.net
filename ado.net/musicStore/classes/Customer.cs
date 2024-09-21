@@ -15,5 +15,8 @@ namespace Exam_.classes
         public string Password { get; set; }
         public decimal TotalSpent { get; set; }
         public decimal Discount { get; set; }
+        public ICollection<Reservation> Reservations { get; set; }
+        public ICollection<Sale> Sales { get; set; }
+
     }
 }

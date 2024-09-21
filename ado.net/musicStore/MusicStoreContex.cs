@@ -29,22 +29,27 @@ namespace Exam_
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Sale>()
                 .HasOne(s => s.Customer)
-                .WithMany()
+                .WithMany(c=>c.Sales)
                 .HasForeignKey(s => s.CustomerId);
 
             modelBuilder.Entity<Sale>()
                 .HasOne(s => s.VinylRecord)
-                .WithMany()
+                .WithMany(v=>v.Sales)
                 .HasForeignKey(s => s.VinylRecordId);
+
+            modelBuilder.Entity<Sale>()
+                .HasOne(s => s.Promotion)
+                .WithOne(p => p.Sale)
+                .HasForeignKey<Sale>(s => s.PromotionId);
 
             modelBuilder.Entity<Reservation>()
                 .HasOne(r => r.Customer)
-                .WithMany()
+                .WithMany(c=>c.Reservations)
                 .HasForeignKey(r => r.CustomerId);
 
             modelBuilder.Entity<Reservation>()
                 .HasOne(r => r.VinylRecord)
-                .WithMany()
+                .WithMany(v=>v.Reservations)
                 .HasForeignKey(r => r.VinylRecordId);
         }
     }

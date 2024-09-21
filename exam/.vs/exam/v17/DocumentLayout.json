@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\exam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{475A12BC-684C-460A-AAA6-8CC0D35AD21B}|main\\main.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\exam\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475A12BC-684C-460A-AAA6-8CC0D35AD21B}|main\\main.csproj|solutionrelative:main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F81168-4FD6-4BE7-8152-68DDF1C71750}|music_store\\music_store.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\exam\\music_store\\musicstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F81168-4FD6-4BE7-8152-68DDF1C71750}|music_store\\music_store.csproj|solutionrelative:music_store\\musicstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F81168-4FD6-4BE7-8152-68DDF1C71750}|music_store\\music_store.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\exam\\music_store\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F81168-4FD6-4BE7-8152-68DDF1C71750}|music_store\\music_store.csproj|solutionrelative:music_store\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\exam\\music_store\\DatabaseInitializer.cs",
+              "RelativeDocumentMoniker": "music_store\\DatabaseInitializer.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\exam\\music_store\\DatabaseInitializer.cs",
+              "RelativeToolTip": "music_store\\DatabaseInitializer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:19:32.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MusicStoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\exam\\music_store\\MusicStoreContext.cs",
+              "RelativeDocumentMoniker": "music_store\\MusicStoreContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\exam\\music_store\\MusicStoreContext.cs",
+              "RelativeToolTip": "music_store\\MusicStoreContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:57:46.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\exam\\main\\Program.cs",
+              "RelativeDocumentMoniker": "main\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\exam\\main\\Program.cs*",
+              "RelativeToolTip": "main\\Program.cs*",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAgwJoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:49:41.525Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

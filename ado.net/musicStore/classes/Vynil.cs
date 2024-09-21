@@ -17,5 +17,8 @@ namespace Exam_.classes
         public decimal SellingPrice { get; set; }
         public bool IsReserved { get; set; } 
         public bool IsOnSale { get; set; }
+        public ICollection<Reservation> Reservations { get; set; }
+        public ICollection<Sale> Sales { get; set; }
+
     }
 }

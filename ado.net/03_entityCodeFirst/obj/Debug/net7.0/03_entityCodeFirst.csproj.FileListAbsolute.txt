@@ -3,3 +3,4 @@ C:\Users\User\Desktop\бб\dotNET\ado.net\03_entityCodeFirst\obj\Debug\net7.0\03
 C:\Users\User\Desktop\бб\dotNET\ado.net\03_entityCodeFirst\obj\Debug\net7.0\03_entityCodeFirst.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\бб\dotNET\ado.net\03_entityCodeFirst\obj\Debug\net7.0\03_entityCodeFirst.AssemblyInfo.cs
 C:\Users\User\Desktop\бб\dotNET\ado.net\03_entityCodeFirst\obj\Debug\net7.0\03_entityCodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\бб\dotNET\ado.net\03_entityCodeFirst\obj\Debug\net7.0\03_entityCodeFirst.sourcelink.json
