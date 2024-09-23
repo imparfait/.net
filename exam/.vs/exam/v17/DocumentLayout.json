@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\exam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{475A12BC-684C-460A-AAA6-8CC0D35AD21B}|main\\main.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\exam\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{475A12BC-684C-460A-AAA6-8CC0D35AD21B}|main\\main.csproj|solutionrelative:main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{63F81168-4FD6-4BE7-8152-68DDF1C71750}|music_store\\music_store.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\exam\\music_store\\musicstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63F81168-4FD6-4BE7-8152-68DDF1C71750}|music_store\\music_store.csproj|solutionrelative:music_store\\musicstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475A12BC-684C-460A-AAA6-8CC0D35AD21B}|main\\main.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\exam\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475A12BC-684C-460A-AAA6-8CC0D35AD21B}|main\\main.csproj|solutionrelative:main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63F81168-4FD6-4BE7-8152-68DDF1C71750}|music_store\\music_store.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\exam\\music_store\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MusicStoreContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\exam\\music_store\\MusicStoreContext.cs",
               "RelativeDocumentMoniker": "music_store\\MusicStoreContext.cs",
@@ -60,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\exam\\main\\Program.cs",
               "RelativeDocumentMoniker": "main\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\exam\\main\\Program.cs*",
-              "RelativeToolTip": "main\\Program.cs*",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAgwJoAAAAxAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\exam\\main\\Program.cs",
+              "RelativeToolTip": "main\\Program.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAgwJoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T12:49:41.525Z",
               "EditorCaption": ""

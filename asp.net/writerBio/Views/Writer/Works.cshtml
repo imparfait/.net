@@ -1,0 +1,9 @@
+﻿@model writerBio.Models.Writer
+
+<h1>@Model.Name - Works</h1>
+<ul>
+    @foreach (var work in Model.Works)
+    {
+        <li>@work</li>
+    }
+</ul>
