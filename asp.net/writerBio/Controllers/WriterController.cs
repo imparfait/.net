@@ -27,6 +27,17 @@ namespace writerBio.Controllers
             var writer = GetWriterData();
             return View(writer);
         }
+        public IActionResult Awards()
+        {
+            var writer = GetWriterData();
+            return View(writer);
+        }
+
+        public IActionResult Facts()
+        {
+            var writer = GetWriterData();
+            return View(writer);
+        }
         private Writer GetWriterData()
         {
             return new Writer
@@ -41,6 +52,18 @@ namespace writerBio.Controllers
                     "It (1986)",
                     "Misery (1987)",
                     "The Dark Tower series (1982-2012)"
+                },
+                 Awards = new List<string>  
+                {
+                    "Bram Stoker Award for Lifetime Achievement (2002)",
+                    "National Medal of Arts (2015)",
+                    "Edgar Award for Best Novel (2015)"
+                },
+                Facts = new List<string>  
+                {
+                    "King was hit by a van in 1999 and suffered severe injuries.",
+                    "He wrote 'Carrie' while working as a high school teacher.",
+                    "Stephen King has appeared in several films based on his works."
                 }
             };
         }

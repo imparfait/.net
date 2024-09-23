@@ -1,0 +1,9 @@
+﻿@model writerBio.Models.Writer
+
+<h1>@Model.Name - Interesting Facts</h1>
+<div class="facts">
+    @foreach (var fact in Model.Facts)
+    {
+        <p>@fact</p>
+    }
+</div>

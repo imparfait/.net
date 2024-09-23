@@ -7,5 +7,7 @@
         public string Biography { get; set; }
         public string Life { get; set; }
         public List<string> Works { get; set; }
+        public List<string> Awards { get; set; } 
+        public List<string> Facts { get; set; }
     }
 }

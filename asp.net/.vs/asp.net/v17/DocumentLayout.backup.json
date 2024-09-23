@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFB7008B-A077-4A2E-A095-7A520633EDDA}|writerBio\\writerBio.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\writerbio\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BFB7008B-A077-4A2E-A095-7A520633EDDA}|writerBio\\writerBio.csproj|solutionrelative:writerbio\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFB7008B-A077-4A2E-A095-7A520633EDDA}|writerBio\\writerBio.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\writerbio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFB7008B-A077-4A2E-A095-7A520633EDDA}|writerBio\\writerBio.csproj|solutionrelative:writerbio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFB7008B-A077-4A2E-A095-7A520633EDDA}|writerBio\\writerBio.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\writerbio\\controllers\\writercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFB7008B-A077-4A2E-A095-7A520633EDDA}|writerBio\\writerBio.csproj|solutionrelative:writerbio\\controllers\\writercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFB7008B-A077-4A2E-A095-7A520633EDDA}|writerBio\\writerBio.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\writerbio\\models\\writer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFB7008B-A077-4A2E-A095-7A520633EDDA}|writerBio\\writerBio.csproj|solutionrelative:writerbio\\models\\writer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFB7008B-A077-4A2E-A095-7A520633EDDA}|writerBio\\writerBio.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\writerbio\\views\\writer\\facts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFB7008B-A077-4A2E-A095-7A520633EDDA}|writerBio\\writerBio.csproj|solutionrelative:writerbio\\views\\writer\\facts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Facts.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\writerBio\\Views\\Writer\\Facts.cshtml",
+              "RelativeDocumentMoniker": "writerBio\\Views\\Writer\\Facts.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\writerBio\\Views\\Writer\\Facts.cshtml",
+              "RelativeToolTip": "writerBio\\Views\\Writer\\Facts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T15:38:59.379Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
@@ -35,58 +36,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\writerBio\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "writerBio\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\writerBio\\wwwroot\\css\\site.css*",
-              "RelativeToolTip": "writerBio\\wwwroot\\css\\site.css*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-23T15:22:15.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\writerBio\\Program.cs",
-              "RelativeDocumentMoniker": "writerBio\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\writerBio\\Program.cs",
-              "RelativeToolTip": "writerBio\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:00:58.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WriterController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\writerBio\\Controllers\\WriterController.cs",
-              "RelativeDocumentMoniker": "writerBio\\Controllers\\WriterController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\writerBio\\Controllers\\WriterController.cs",
-              "RelativeToolTip": "writerBio\\Controllers\\WriterController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T14:53:37.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Writer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\writerBio\\Models\\Writer.cs",
-              "RelativeDocumentMoniker": "writerBio\\Models\\Writer.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\writerBio\\Models\\Writer.cs",
-              "RelativeToolTip": "writerBio\\Models\\Writer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T14:50:34.288Z",
-              "EditorCaption": ""
             }
           ]
         }

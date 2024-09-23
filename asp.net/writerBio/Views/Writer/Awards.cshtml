@@ -1,0 +1,9 @@
+﻿@model writerBio.Models.Writer
+
+<h1>@Model.Name - Awards</h1>
+<ul>
+    @foreach (var award in Model.Awards)
+    {
+        <li>@award</li>
+    }
+</ul>
