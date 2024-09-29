@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Car>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Color</th>
+            <th>Year</th>
+            <th>Body Type</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Model)
+        {
+            <tr>
+                <td>@car.Model</td>
+                <td>@car.Color</td>
+                <td>@car.Year</td>
+                <td>@car.BodyType</td>
+                <td>
+                    <a asp-controller="Home" asp-action="Details" asp-route-id="@car.Id" class="btn btn-dark">Show Details</a>
+                    <a asp-controller="Home" asp-action="ConfirmDelete" asp-route-id="@car.Id" class="btn btn-dark">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

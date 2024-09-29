@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFB7008B-A077-4A2E-A095-7A520633EDDA}|writerBio\\writerBio.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\writerbio\\views\\writer\\facts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BFB7008B-A077-4A2E-A095-7A520633EDDA}|writerBio\\writerBio.csproj|solutionrelative:writerbio\\views\\writer\\facts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\carlist\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|solutionrelative:carlist\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\carlist\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|solutionrelative:carlist\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Facts.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\writerBio\\Views\\Writer\\Facts.cshtml",
-              "RelativeDocumentMoniker": "writerBio\\Views\\Writer\\Facts.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\writerBio\\Views\\Writer\\Facts.cshtml",
-              "RelativeToolTip": "writerBio\\Views\\Writer\\Facts.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "carList\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "carList\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T15:38:59.379Z",
+              "WhenOpened": "2024-09-29T17:42:59.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "carList\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "carList\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T17:37:39.669Z",
               "EditorCaption": ""
             },
             {
