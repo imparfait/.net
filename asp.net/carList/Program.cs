@@ -1,3 +1,6 @@
+using carShop;
+using Microsoft.EntityFrameworkCore;
+
 namespace carList
 {
     public class Program
@@ -5,11 +8,16 @@ namespace carList
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
             builder.Services.AddControllersWithViews();
 
+            string connString = builder.Configuration.GetConnectionString("LocalDb")!;
+            builder.Services.AddDbContext<CarContext>(opt => opt.UseSqlServer(connString));
+
+
             var app = builder.Build();
+
+           
+            builder.Services.AddControllersWithViews();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -23,12 +31,6 @@ namespace carList
             app.UseStaticFiles();
 
             app.UseRouting();
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-            });
 
             app.UseAuthorization();
 

@@ -1,40 +1,38 @@
 using carList.Models;
+using carShop;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace carList.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly CarContext dbContext;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(CarContext context)
         {
-            _logger = logger;
+            dbContext = context;
         }
 
-        private static List<Car> cars = new List<Car>
-    {
-        new Car { Id = 1, Model = "Tesla Model S", Color = "Black", Year = 2022, BodyType = "Sedan" },
-        new Car { Id = 2, Model = "Ford Mustang", Color = "Red", Year = 1967, BodyType = "Coupe" }
-    };
         public IActionResult Index()
         {
-            return View(cars);
+            return View(dbContext.Cars.ToList());
         }
         public IActionResult ConfirmDelete(int id)
         {
-            var car = cars.Find(c => c.Id == id);
+            var car = dbContext.Cars.Find(id);
             if (car == null)
             {
                 return NotFound();
             }
-            cars.Remove(car);
-            return RedirectToAction("Index");
+            dbContext.Cars.Remove(car);
+            dbContext.SaveChanges();
+            return RedirectToAction(nameof(Index));
         }    
         public IActionResult Details(int id)
             {
-                var car = cars.Find(c => c.Id == id);
+                var car = dbContext.Cars.Find(id);
                 if (car == null)
                 {
                     return NotFound();

@@ -1,4 +1,4 @@
-﻿namespace carList.Models
+﻿namespace carShop
 {
     public class Car
     {
