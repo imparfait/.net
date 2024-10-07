@@ -11,15 +11,19 @@ namespace carList
             builder.Services.AddControllersWithViews();
 
             string connString = builder.Configuration.GetConnectionString("LocalDb")!;
-            builder.Services.AddDbContext<CarContext>(opt => opt.UseSqlServer(connString));
+            builder.Services.AddDbContext<CarContext>(opt => 
+            opt.UseSqlServer(connString, sqlOptions =>
+            {
+                sqlOptions.EnableRetryOnFailure(maxRetryCount: 10, 
+                    maxRetryDelay: TimeSpan.FromSeconds(10),
+                    errorNumbersToAdd: null); 
 
+            }));
 
             var app = builder.Build();
 
            
-            builder.Services.AddControllersWithViews();
-
-            // Configure the HTTP request pipeline.
+          // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
