@@ -17,7 +17,8 @@ namespace carList.Controllers
 
         public IActionResult Index()
         {
-            return View(dbContext.Cars.ToList());
+            var cars = dbContext.Cars.ToList(); 
+            return View(cars);
         }
         public IActionResult ConfirmDelete(int id)
         {
@@ -39,7 +40,34 @@ namespace carList.Controllers
                 }
                 return View(car);
             }
-
+        public IActionResult Create(Car car)
+        {
+            
+            if (!ModelState.IsValid)
+            {
+                return View(car);
+            }
+            dbContext.Cars.Add(car);
+            dbContext.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+        public IActionResult Edit(int id)
+        {
+            var car = dbContext.Cars.Find(id);
+            if (car == null) return NotFound();
+            return View(car);
+        }
+        [HttpPost]
+        public IActionResult Edit(Car car)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(car);
+            }
+            dbContext.Cars.Update(car);
+            dbContext.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

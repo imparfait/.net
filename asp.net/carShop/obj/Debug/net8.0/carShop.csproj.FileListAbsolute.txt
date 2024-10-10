@@ -11,3 +11,5 @@ C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Debug\net8.0\carShop.dll
 C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Debug\net8.0\refint\carShop.dll
 C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Debug\net8.0\carShop.pdb
 C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Debug\net8.0\ref\carShop.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\bin\Debug\net8.0\carShop.runtimeconfig.json
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Debug\net8.0\carShop.genruntimeconfig.cache

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<carShop.Car>
+﻿@model List<carShop.Car>
 
 <table class="table">
     <thead>
@@ -20,9 +20,11 @@
                 <td>@car.BodyType</td>
                 <td>
                     <a asp-controller="Home" asp-action="Details" asp-route-id="@car.Id" class="btn btn-dark">Show Details</a>
+                    <a asp-controller="Home" asp-action="Edit" asp-route-id="@car.Id" class="btn btn-dark">Edit</a>
                     <a asp-controller="Home" asp-action="ConfirmDelete" asp-route-id="@car.Id" class="btn btn-dark">Delete</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
+<a asp-action="Create" class="btn btn-primary mt-4">Create New Product</a>

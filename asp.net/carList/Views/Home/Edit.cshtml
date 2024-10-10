@@ -1,0 +1,34 @@
+﻿@model carShop.Car
+
+<h1>Edit the Car</h1>
+
+
+<form asp-action="Edit" method="post" class="row g-3">
+    <div class="col-md-6">
+        <label asp-for="Model" class="form-label">Model</label>
+        <input asp-for="Model" type="text" class="form-control" required placeholder="Enter Model">
+        <span class="form-text text-danger" asp-validation-for="Model"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Color" class="form-label">Color</label>
+        <input asp-for="Color" type="text" class="form-control" placeholder="Enter Color">
+        <span class="form-text text-danger" asp-validation-for="Color"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="Year" class="form-label">Year</label>
+        <input asp-for="Year" type="number" step="1" class="form-control" placeholder="Enter Year">
+        <span class="form-text text-danger" asp-validation-for="Year"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="BodyType" class="form-label">Body Type</label>
+        <input asp-for="BodyType" type="text" class="form-control" placeholder="Enter Body Type">
+        <span class="form-text text-danger" asp-validation-for="BodyType"></span>
+    </div>
+    <div class="col-6">
+        <button type="submit" class="btn btn-primary w-100">Edit</button>
+    </div>
+    <div class="col-6">
+        <a asp-action="Index" class="btn btn-primary w-100">Back</a>
+    </div>
+
+</form>
