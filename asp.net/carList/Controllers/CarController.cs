@@ -1,7 +1,7 @@
-﻿using carShop;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BusinessLogic.Interfaces;
+using carShop.Entities;
 
 
 namespace carList.Controllers
@@ -25,14 +25,14 @@ namespace carList.Controllers
 			service.Delete(id);
 			return RedirectToAction(nameof(Index));
         }
-        public IActionResult Details(int id)
+        public IActionResult Details(int id, string returnUrl = null)
         {
 			if (id < 0) { return BadRequest(); }
 
 			var car = service.GetById(id);
 
 			if (car == null) { return NotFound(); }
-			
+			ViewBag.ReturnUrl = returnUrl;
 			return View(car);
         }
         public IActionResult Create(Car car)

@@ -1,4 +1,4 @@
-﻿@model List<carShop.Car>
+﻿@model List<carShop.Entities.Car>
 
 <table class="table">
     <thead>
@@ -22,6 +22,10 @@
                     <a asp-controller="Car" asp-action="Details" asp-route-id="@car.Id" class="btn btn-dark">Show Details</a>
                     <a asp-controller="Car" asp-action="Edit" asp-route-id="@car.Id" class="btn btn-dark">Edit</a>
                     <a asp-controller="Car" asp-action="ConfirmDelete" asp-route-id="@car.Id" class="btn btn-dark">Delete</a>
+                        <a asp-controller="Cart" asp-action="Add" asp-route-carId="@car.Id" asp-route-returnUrl="@Context.Request.Path" class="btn btn-secondary">
+                        Add to Cart
+                    </a>
+
                 </td>
             </tr>
         }

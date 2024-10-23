@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using carShop.Entities;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace carShop.Configuration
 {
-	public class CarConfiguration : IEntityTypeConfiguration<Car>
+    public class CarConfiguration : IEntityTypeConfiguration<Car>
 	{
 		public void Configure(EntityTypeBuilder<Car> builder)
 		{
@@ -25,6 +26,11 @@ namespace carShop.Configuration
 			    .HasMaxLength(50);
 			builder.Property(c => c.Year)
 				.IsRequired();
+            builder.Property(c => c.ImagePath)
+                .IsRequired();
+
+            builder.HasMany(c => c.Carts)
+				.WithMany(cart => cart.Cars);
 		}
 	}
 }

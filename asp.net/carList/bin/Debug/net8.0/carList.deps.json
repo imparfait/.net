@@ -9,8 +9,7 @@
       "carList/1.0.0": {
         "dependencies": {
           "BusinessLogic": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Design": "8.0.8",
-          "carShop": "1.0.0"
+          "Microsoft.EntityFrameworkCore.Design": "8.0.8"
         },
         "runtime": {
           "carList.dll": {}

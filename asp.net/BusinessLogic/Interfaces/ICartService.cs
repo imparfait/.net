@@ -1,4 +1,5 @@
-﻿using System;
+﻿using carShop.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,11 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic.Interfaces
 {
-	public interface ICartService
+    public interface ICartService
 	{
+		List<Car> GetProducts();
+		void Add(int carId);
+		void Remove(int carId);
+		bool IsInCart(int carId);
 	}
 }

@@ -1,10 +1,11 @@
 ﻿using BusinessLogic.Interfaces;
 using carShop;
+using carShop.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace BusinessLogic.Services
 {
-	public class CarService : ICarService
+    public class CarService : ICarService
 	{
 		private readonly CarContext context;
 
@@ -35,7 +36,7 @@ namespace BusinessLogic.Services
 
 		public List<Car> Get(int[] ids)
 		{
-			return context.Cars.Where(p => ids.Contains(p.Id)).ToList();
+			return context.Cars.Where(c => ids.Contains(c.Id)).ToList();
 		}
 
 		public List<Car> GetAll()

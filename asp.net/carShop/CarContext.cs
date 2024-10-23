@@ -1,4 +1,5 @@
 ﻿using carShop.Configuration;
+using carShop.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Drawing;
 
@@ -24,11 +25,12 @@ namespace carShop
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 			modelBuilder.ApplyConfiguration(new CarConfiguration());
-			modelBuilder.Entity<Car>().HasData(new Car[]
-            {
-            new Car() {Id=1, Model = "Tesla Model S", Color = "Black", Year = 2022, BodyType = "Sedan" },
-            new Car() {Id=2, Model = "Ford Mustang", Color = "Red", Year = 1967, BodyType = "Coupe"},
-            });
+            //modelBuilder.Entity<Car>().HasData(new Car[]
+            //         {
+            //         new Car() {Id=1, Model = "Tesla Model S", Color = "Black", Year = 2022, BodyType = "Sedan" },
+            //         new Car() {Id=2, Model = "Ford Mustang", Color = "Red", Year = 1967, BodyType = "Coupe"},
+            //         });
+            //modelBuilder.Entity<Cart>().HasData(new Cart() { Id = 1, Cars = null });
         }
     }
 }

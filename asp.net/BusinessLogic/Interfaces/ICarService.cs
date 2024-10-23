@@ -1,8 +1,8 @@
-﻿using carShop;
+﻿using carShop.Entities;
 
 namespace BusinessLogic.Interfaces
 {
-	public interface ICarService
+    public interface ICarService
 	{
 		List<Car> GetAll();
 		List<Car> Get(int[] ids);

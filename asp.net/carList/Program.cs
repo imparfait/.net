@@ -1,5 +1,6 @@
 using BusinessLogic.Interfaces;
 using BusinessLogic.Services;
+using carList.Services;
 using carShop;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,7 +24,16 @@ namespace carList
             }));
 
 			builder.Services.AddScoped<ICarService, CarService>();
-			var app = builder.Build();
+			builder.Services.AddScoped<ICartService, CartService>();
+
+            builder.Services.AddSession(options =>
+            {
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+            builder.Services.AddHttpContextAccessor();
+
+            var app = builder.Build();
 
            
           // Configure the HTTP request pipeline.
@@ -40,6 +50,7 @@ namespace carList
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseSession();
 
             app.MapControllerRoute(
                 name: "default",

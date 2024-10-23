@@ -7,36 +7,20 @@
       "RelativeMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|solutionrelative:carlist\\views\\car\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\carlist\\views\\car\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|solutionrelative:carlist\\views\\car\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{27B412FD-6372-4646-92D5-F4951FD010CE}|carShop\\carShop.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\carshop\\configuration\\carconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27B412FD-6372-4646-92D5-F4951FD010CE}|carShop\\carShop.csproj|solutionrelative:carshop\\configuration\\carconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27B412FD-6372-4646-92D5-F4951FD010CE}|carShop\\carShop.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\carshop\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27B412FD-6372-4646-92D5-F4951FD010CE}|carShop\\carShop.csproj|solutionrelative:carshop\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\carlist\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|solutionrelative:carlist\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33C2D56B-3641-4DD6-AF5F-305D6BB6EC30}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\businesslogic\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33C2D56B-3641-4DD6-AF5F-305D6BB6EC30}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\carlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|solutionrelative:carlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33C2D56B-3641-4DD6-AF5F-305D6BB6EC30}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\businesslogic\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C2D56B-3641-4DD6-AF5F-305D6BB6EC30}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\carlist\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|solutionrelative:carlist\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33C2D56B-3641-4DD6-AF5F-305D6BB6EC30}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\businesslogic\\interfaces\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33C2D56B-3641-4DD6-AF5F-305D6BB6EC30}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\interfaces\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27B412FD-6372-4646-92D5-F4951FD010CE}|carShop\\carShop.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\carshop\\carcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27B412FD-6372-4646-92D5-F4951FD010CE}|carShop\\carShop.csproj|solutionrelative:carshop\\carcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|c:\\users\\user\\desktop\\\u0431\u0431\\dotnet\\asp.net\\carlist\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2342677-D14D-43FB-B90F-BEB46FA30DF1}|carList\\carList.csproj|solutionrelative:carlist\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,24 +33,42 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carShop\\Configuration\\CarConfiguration.cs",
+              "RelativeDocumentMoniker": "carShop\\Configuration\\CarConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carShop\\Configuration\\CarConfiguration.cs*",
+              "RelativeToolTip": "carShop\\Configuration\\CarConfiguration.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T22:09:17.507Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Views\\Car\\Create.cshtml",
-              "RelativeDocumentMoniker": "carList\\Views\\Car\\Create.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Views\\Car\\Create.cshtml",
-              "RelativeToolTip": "carList\\Views\\Car\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T17:48:02.959Z",
+              "DocumentIndex": 2,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\BusinessLogic\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\BusinessLogic\\Services\\CarService.cs",
+              "RelativeToolTip": "BusinessLogic\\Services\\CarService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T22:08:24.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "carList\\Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Controllers\\CarController.cs",
+              "RelativeToolTip": "carList\\Controllers\\CarController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T21:42:48.11Z",
               "EditorCaption": ""
             },
             {
@@ -77,101 +79,31 @@
               "RelativeDocumentMoniker": "carList\\Views\\Car\\Edit.cshtml",
               "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Views\\Car\\Edit.cshtml*",
               "RelativeToolTip": "carList\\Views\\Car\\Edit.cshtml*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T17:47:24.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SessionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\SessionExtensions.cs",
-              "RelativeDocumentMoniker": "carList\\SessionExtensions.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\SessionExtensions.cs*",
-              "RelativeToolTip": "carList\\SessionExtensions.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:43:34.506Z",
+              "WhenOpened": "2024-10-23T21:57:02.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ICartService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\BusinessLogic\\Interfaces\\ICartService.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\Interfaces\\ICartService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\BusinessLogic\\Interfaces\\ICartService.cs*",
-              "RelativeToolTip": "BusinessLogic\\Interfaces\\ICartService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:41:44.389Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "carList\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "carList\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAACqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T21:54:16.13Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Program.cs",
-              "RelativeDocumentMoniker": "carList\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Program.cs",
-              "RelativeToolTip": "carList\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAzwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:36:25.968Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CarController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Controllers\\CarController.cs",
-              "RelativeDocumentMoniker": "carList\\Controllers\\CarController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carList\\Controllers\\CarController.cs",
-              "RelativeToolTip": "carList\\Controllers\\CarController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:24:28.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ICarService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\BusinessLogic\\Interfaces\\ICarService.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\Interfaces\\ICarService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\BusinessLogic\\Interfaces\\ICarService.cs",
-              "RelativeToolTip": "BusinessLogic\\Interfaces\\ICarService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:10:11.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carShop\\Car.cs",
-              "RelativeDocumentMoniker": "carShop\\Car.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carShop\\Car.cs",
-              "RelativeToolTip": "carShop\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T15:58:23.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CarContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carShop\\CarContext.cs",
-              "RelativeDocumentMoniker": "carShop\\CarContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u0431\u0431\\dotNET\\asp.net\\carShop\\CarContext.cs",
-              "RelativeToolTip": "carShop\\CarContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA3wCEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T15:58:17.016Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

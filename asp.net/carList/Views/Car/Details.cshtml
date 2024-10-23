@@ -1,4 +1,4 @@
-﻿@model carShop.Car
+﻿@model carShop.Entities.Car
 
 
 <div><h2>Details for @Model.Model</h2>
@@ -8,5 +8,8 @@
 <p><strong>Year:</strong> @Model.Year</p>
 <p><strong>Body Type:</strong> @Model.BodyType</p>
 
+	<a asp-controller="Cart" asp-action="Add" asp-route-carId="@Model.Id" asp-route-returnUrl="@Context.Request.Path" class="btn btn-secondary">
+		 Add to Cart
+	</a>
 	<a asp-action="Index" class="btn btn-primary">Back</a>
 </div>

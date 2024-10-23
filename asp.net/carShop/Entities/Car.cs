@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace carShop
+namespace carShop.Entities
 {
     public class Car
     {
@@ -10,5 +10,6 @@ namespace carShop
         public int Year { get; set; }
         public string BodyType { get; set; }
         public string? ImagePath { get; set; }
+        public ICollection<Cart> Carts { get; set; }
     }
 }
