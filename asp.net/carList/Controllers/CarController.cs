@@ -37,7 +37,6 @@ namespace carList.Controllers
         }
         public IActionResult Create(Car car)
         {
-
             if (!ModelState.IsValid)
             {
                 return View(car);

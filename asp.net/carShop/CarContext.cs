@@ -35,3 +35,10 @@ namespace carShop
         }
     }
 }
+
+//
+//Toyota Camry
+//Blue
+//2021
+//Sedan
+//https://dealer-content.s3.amazonaws.com/images/models/toyota/2021/camry/colors/blueprint.png
