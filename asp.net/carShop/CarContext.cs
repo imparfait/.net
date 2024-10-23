@@ -10,6 +10,7 @@ namespace carShop
         public CarContext() : base() { }
         public CarContext(DbContextOptions options) : base(options) { }
         public DbSet<Car> Cars { get; set; }
+        public DbSet<Cart> Carts { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

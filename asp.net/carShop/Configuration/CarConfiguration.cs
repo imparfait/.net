@@ -30,7 +30,12 @@ namespace carShop.Configuration
                 .IsRequired();
 
             builder.HasMany(c => c.Carts)
-				.WithMany(cart => cart.Cars);
+				.WithMany(cart => cart.Cars)
+                .UsingEntity<Dictionary<string, object>>(
+            "CarCart", 
+            j => j.HasOne<Cart>().WithMany().HasForeignKey("CartId"),
+            j => j.HasOne<Car>().WithMany().HasForeignKey("CarId")
+        );
 		}
 	}
 }

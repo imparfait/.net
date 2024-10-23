@@ -1,6 +1,9 @@
 ﻿using BusinessLogic.Interfaces;
 using carShop;
 using carShop.Entities;
+using carShop.Migrations;
+using Microsoft.EntityFrameworkCore;
+using System.Runtime.CompilerServices;
 
 namespace carList.Services
 {
@@ -8,17 +11,21 @@ namespace carList.Services
 	{
 		private readonly ICarService service;
 		private readonly HttpContext? httpContext;
-        public CartService(ICarService service, IHttpContextAccessor httpContextAccessor)
-		{
-			this.service = service;
-			this.httpContext = httpContextAccessor.HttpContext;
-		}
-		public void Add(int carId)
+       // private readonly CarContext context;
+
+        public CartService(ICarService service, IHttpContextAccessor httpContextAccessor, CarContext context)
+        {
+            this.service = service;
+            this.httpContext = httpContextAccessor.HttpContext;
+           // this.context = context;
+        }
+        public void Add(int carId)
 		{
 			var carIds = httpContext.Session.GetObject<List<int>>("cart");
 			if (carIds == null) { carIds = new List<int>(); }
 			carIds.Add(carId);
-			httpContext.Session.SetObject("cart", carIds);
+
+            httpContext.Session.SetObject("cart", carIds);
 		}
 
 		public List<Car> GetProducts()
@@ -45,6 +52,7 @@ namespace carList.Services
 			if (carIds == null) { carIds = new List<int>(); }
 			carIds.Remove(carId);
 			httpContext.Session.SetObject("cart", carIds);
-		}
+
+        }
 	}
 }

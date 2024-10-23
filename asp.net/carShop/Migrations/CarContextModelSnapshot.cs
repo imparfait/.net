@@ -23,15 +23,15 @@ namespace carShop.Migrations
 
             modelBuilder.Entity("CarCart", b =>
                 {
-                    b.Property<int>("CarsId")
+                    b.Property<int>("CarId")
                         .HasColumnType("int");
 
-                    b.Property<int>("CartsId")
+                    b.Property<int>("CartId")
                         .HasColumnType("int");
 
-                    b.HasKey("CarsId", "CartsId");
+                    b.HasKey("CarId", "CartId");
 
-                    b.HasIndex("CartsId");
+                    b.HasIndex("CartId");
 
                     b.ToTable("CarCart");
                 });
@@ -55,6 +55,7 @@ namespace carShop.Migrations
                         .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("ImagePath")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Model")
@@ -87,13 +88,13 @@ namespace carShop.Migrations
                 {
                     b.HasOne("carShop.Entities.Car", null)
                         .WithMany()
-                        .HasForeignKey("CarsId")
+                        .HasForeignKey("CarId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("carShop.Entities.Cart", null)
                         .WithMany()
-                        .HasForeignKey("CartsId")
+                        .HasForeignKey("CartId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
