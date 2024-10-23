@@ -1491,6 +1491,20 @@
           }
         }
       },
+      "BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.8",
+          "carShop": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLogic.dll": {}
+        }
+      },
       "carShop/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4073,6 +4087,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLogic/BusinessLogic.csproj",
+      "msbuildProject": "../BusinessLogic/BusinessLogic.csproj"
+    },
     "carShop/1.0.0": {
       "type": "project",
       "path": "../carShop/carShop.csproj",
@@ -4081,6 +4100,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "BusinessLogic >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
       "carShop >= 1.0.0"
     ]
@@ -4118,6 +4138,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\User\\Desktop\\бб\\dotNET\\asp.net\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\бб\\dotNET\\asp.net\\BusinessLogic\\BusinessLogic.csproj"
+            },
             "C:\\Users\\User\\Desktop\\бб\\dotNET\\asp.net\\carShop\\carShop.csproj": {
               "projectPath": "C:\\Users\\User\\Desktop\\бб\\dotNET\\asp.net\\carShop\\carShop.csproj"
             }

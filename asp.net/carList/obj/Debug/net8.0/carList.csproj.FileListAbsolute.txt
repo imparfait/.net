@@ -137,3 +137,5 @@ C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\ru\Microsoft.
 C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\BusinessLogic.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\BusinessLogic.pdb

@@ -1,43 +1,39 @@
 ﻿using carShop;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using BusinessLogic.Interfaces;
 
 
 namespace carList.Controllers
 {
     public class CarController : Controller
     {
-        private readonly CarContext dbContext;
+		private readonly ICarService service;
 
-        public CarController(CarContext context)
-        {
-            dbContext = context;
-        }
+		public CarController(ICarService service)
+		{
+			this.service = service;
+		}
 
-        public IActionResult Index()
+		public IActionResult Index()
         {
-            var cars = dbContext.Cars.ToList();
+            var cars = service.GetAll();
             return View(cars);
         }
         public IActionResult ConfirmDelete(int id)
         {
-            var car = dbContext.Cars.Find(id);
-            if (car == null)
-            {
-                return NotFound();
-            }
-            dbContext.Cars.Remove(car);
-            dbContext.SaveChanges();
-            return RedirectToAction(nameof(Index));
+			service.Delete(id);
+			return RedirectToAction(nameof(Index));
         }
         public IActionResult Details(int id)
         {
-            var car = dbContext.Cars.Find(id);
-            if (car == null)
-            {
-                return NotFound();
-            }
-            return View(car);
+			if (id < 0) { return BadRequest(); }
+
+			var car = service.GetById(id);
+
+			if (car == null) { return NotFound(); }
+			
+			return View(car);
         }
         public IActionResult Create(Car car)
         {
@@ -46,13 +42,12 @@ namespace carList.Controllers
             {
                 return View(car);
             }
-            dbContext.Cars.Add(car);
-            dbContext.SaveChanges();
-            return RedirectToAction(nameof(Index));
+			service.Create(car);
+			return RedirectToAction(nameof(Index));
         }
         public IActionResult Edit(int id)
         {
-            var car = dbContext.Cars.Find(id);
+            var car = service.GetById(id);
             if (car == null) return NotFound();
             return View(car);
         }
@@ -63,9 +58,8 @@ namespace carList.Controllers
             {
                 return View(car);
             }
-            dbContext.Cars.Update(car);
-            dbContext.SaveChanges();
-            return RedirectToAction(nameof(Index));
+			service.Edit(car);
+			return RedirectToAction(nameof(Index));
         }
     }
 }

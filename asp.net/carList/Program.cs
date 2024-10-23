@@ -1,3 +1,5 @@
+using BusinessLogic.Interfaces;
+using BusinessLogic.Services;
 using carShop;
 using Microsoft.EntityFrameworkCore;
 
@@ -20,7 +22,8 @@ namespace carList
 
             }));
 
-            var app = builder.Build();
+			builder.Services.AddScoped<ICarService, CarService>();
+			var app = builder.Build();
 
            
           // Configure the HTTP request pipeline.
