@@ -11,5 +11,6 @@ namespace carShop.Entities
         public string BodyType { get; set; }
         public string? ImagePath { get; set; }
         public ICollection<Cart> Carts { get; set; }
+        public decimal Price { get; set; }
     }
 }

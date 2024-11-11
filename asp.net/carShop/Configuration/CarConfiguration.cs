@@ -28,8 +28,11 @@ namespace carShop.Configuration
 				.IsRequired();
             builder.Property(c => c.ImagePath)
                 .IsRequired();
+			builder.Property(c => c.Price)
+				 .HasPrecision(20, 2)
+			   .IsRequired();
 
-            builder.HasMany(c => c.Carts)
+			builder.HasMany(c => c.Carts)
 				.WithMany(cart => cart.Cars)
                 .UsingEntity<Dictionary<string, object>>(
             "CarCart", 

@@ -14,7 +14,7 @@ namespace carList.Controllers
         }
 		public IActionResult Index()
 		{
-			return View(cartService.GetProducts());
+			return View(cartService.GetCars());
 		}
 		public IActionResult Add(int carId, string returnUrl)
 		{

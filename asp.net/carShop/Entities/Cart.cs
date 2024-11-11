@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace carShop.Entities
 {
-    public class Cart
+    public partial class Cart
     {
         public int Id { get; set; }
+    }
+
+    public partial class Cart
+    {
         public ICollection<Car> Cars { get; set; }
     }
 }

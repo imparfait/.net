@@ -11,13 +11,10 @@ namespace carList.Services
 	{
 		private readonly ICarService service;
 		private readonly HttpContext? httpContext;
-       // private readonly CarContext context;
-
         public CartService(ICarService service, IHttpContextAccessor httpContextAccessor, CarContext context)
         {
             this.service = service;
             this.httpContext = httpContextAccessor.HttpContext;
-           // this.context = context;
         }
         public void Add(int carId)
 		{
@@ -28,7 +25,7 @@ namespace carList.Services
             httpContext.Session.SetObject("cart", carIds);
 		}
 
-		public List<Car> GetProducts()
+		public List<Car> GetCars()
 		{
 			var carIds = httpContext.Session.GetObject<List<int>>("cart");
 			List<Car> cars = new List<Car>();

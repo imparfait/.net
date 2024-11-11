@@ -139,3 +139,15 @@ C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\zh-Hans\Micro
 C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\BusinessLogic.dll
 C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\BusinessLogic.pdb
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\obj\Debug\net8.0\carList.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carList\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

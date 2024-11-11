@@ -1,22 +1,22 @@
 using carList.Models;
-using carShop;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using BusinessLogic.Interfaces;
 
 namespace carList.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly CarContext dbContext;
+        private readonly ICarService service;
 
-        public HomeController(CarContext context)
+        public HomeController(ICarService service)
         {
-            dbContext = context;
+            this.service = service;
         }
         public IActionResult Index()
         {
-            var cars = dbContext.Cars.ToList();
-            return View(cars);
+            return View(service.GetAll());
+
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

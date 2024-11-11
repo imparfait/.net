@@ -2,10 +2,12 @@
 using Microsoft.EntityFrameworkCore;
 using BusinessLogic.Interfaces;
 using carShop.Entities;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace carList.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class CarController : Controller
     {
 		private readonly ICarService service;
@@ -14,17 +16,17 @@ namespace carList.Controllers
 		{
 			this.service = service;
 		}
-
-		public IActionResult Index()
+        [AllowAnonymous]
+        public IActionResult Index()
         {
-            var cars = service.GetAll();
-            return View(cars);
+            return View(service.GetAll());
         }
         public IActionResult ConfirmDelete(int id)
         {
 			service.Delete(id);
 			return RedirectToAction(nameof(Index));
         }
+        [AllowAnonymous]
         public IActionResult Details(int id, string returnUrl = null)
         {
 			if (id < 0) { return BadRequest(); }
@@ -35,14 +37,19 @@ namespace carList.Controllers
 			ViewBag.ReturnUrl = returnUrl;
 			return View(car);
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
         public IActionResult Create(Car car)
         {
             if (!ModelState.IsValid)
             {
                 return View(car);
             }
-			service.Create(car);
-			return RedirectToAction(nameof(Index));
+            service.Create(car);
+            return RedirectToAction(nameof(Index));
         }
         public IActionResult Edit(int id)
         {

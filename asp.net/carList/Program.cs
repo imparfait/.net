@@ -2,7 +2,12 @@ using BusinessLogic.Interfaces;
 using BusinessLogic.Services;
 using carList.Services;
 using carShop;
+using carShop.Entities;
+using FluentValidation.AspNetCore;
+using FluentValidation;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using carShop.Interfaces;
 
 namespace carList
 {
@@ -14,17 +19,20 @@ namespace carList
             builder.Services.AddControllersWithViews();
 
             string connString = builder.Configuration.GetConnectionString("LocalDb")!;
-            builder.Services.AddDbContext<CarContext>(opt => 
-            opt.UseSqlServer(connString, sqlOptions =>
-            {
-                sqlOptions.EnableRetryOnFailure(maxRetryCount: 10, 
-                    maxRetryDelay: TimeSpan.FromSeconds(10),
-                    errorNumbersToAdd: null); 
+            builder.Services.AddDbContext<CarContext>(opt => opt.UseSqlServer(connString));
 
-            }));
+            builder.Services.AddIdentity<User, IdentityRole>()
+                .AddDefaultTokenProviders()
+                .AddDefaultUI()
+                .AddEntityFrameworkStores<CarContext>();
 
-			builder.Services.AddScoped<ICarService, CarService>();
-			builder.Services.AddScoped<ICartService, CartService>();
+            builder.Services.AddFluentValidationAutoValidation();
+            builder.Services.AddValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());
+
+            builder.Services.AddScoped<ICarService, CarService>();
+            builder.Services.AddScoped<ICartService, CartService>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
+            builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
             builder.Services.AddSession(options =>
             {
@@ -34,13 +42,15 @@ namespace carList
             builder.Services.AddHttpContextAccessor();
 
             var app = builder.Build();
+            using (var scope = app.Services.CreateScope())
+            {
+                Seeder.SeedRoles(scope.ServiceProvider).Wait();
+                Seeder.SeedAdmin(scope.ServiceProvider).Wait();
+            }
 
-           
-          // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
@@ -49,7 +59,9 @@ namespace carList
 
             app.UseRouting();
 
+//            app.UseAuthentication();
             app.UseAuthorization();
+
             app.UseSession();
 
             app.MapControllerRoute(

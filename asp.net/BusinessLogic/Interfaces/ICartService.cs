@@ -9,7 +9,7 @@ namespace BusinessLogic.Interfaces
 {
     public interface ICartService
 	{
-		List<Car> GetProducts();
+		List<Car> GetCars();
 		void Add(int carId);
 		void Remove(int carId);
 		bool IsInCart(int carId);
