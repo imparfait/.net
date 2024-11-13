@@ -24,14 +24,28 @@
         <input asp-for="BodyType" type="text" class="form-control" placeholder="Enter Body Type">
         <span class="form-text text-danger" asp-validation-for="BodyType"></span>
     </div>
-    <div class="col-md-12">
+    <div class="col-md-6">
         <label asp-for="ImagePath" class="form-label">Image Path</label>
         <input asp-for="ImagePath" type="text" class="form-control" placeholder="Enter Image Path">
         <span class="form-text text-danger" ></span>
     </div>
-    <div class="col-6">
-        <a asp-action="Index" class="btn btn-primary w-100">Back</a>
+    <div class="col-md-6">
+        <label asp-for="Price" class="form-label">Price</label>
+        <input asp-for="Price" type="number" class="form-control" placeholder="Enter Price">
+        <span class="form-text text-danger"></span>
     </div>
+    @if (@ViewBag.ReturnUrl == null)
+    {
+        <div class="col-6 ">
+            <a asp-action="Index" class="btn btn-primary w-100">Back</a>
+        </div>
+    }
+    else
+    {
+        <div class="col-6 ">
+            <a href="@ViewBag.ReturnUrl" class="btn btn-primary w-100">Back</a>
+        </div>
+    }
     <div class="col-6">
         <button type="submit" class="btn btn-primary w-100">Create</button>
     </div>

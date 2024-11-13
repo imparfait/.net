@@ -1,5 +1,5 @@
 ﻿﻿@using BusinessLogic.Interfaces
-@using BusinessLogic.Services
+
 @model List<carShop.Entities.Car>
 @inject ICartService CartService
 
@@ -10,6 +10,7 @@
             <th>Color</th>
             <th>Year</th>
             <th>Body Type</th>
+            <th>Price</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -20,4 +21,7 @@
         }
     </tbody>
 </table>
-<a asp-controller="Car" asp-action="Create" class="btn btn-primary mt-4">Create New Product</a>
+@if (User.IsInRole("Admin"))
+{
+    <a asp-controller="Car" asp-action="Create" class="btn btn-primary mt-4">Create New Product</a>
+}

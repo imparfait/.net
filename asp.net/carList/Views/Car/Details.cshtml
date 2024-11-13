@@ -1,5 +1,6 @@
-﻿@model carShop.Entities.Car
-
+﻿@using BusinessLogic.Interfaces
+@model carShop.Entities.Car
+@inject ICartService CartService
 
 <div><h2>Details for @Model.Model</h2>
 <img src="@(@Model.ImagePath??"https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg")" class="card-img-top"  alt="Car image">
@@ -7,9 +8,32 @@
 <p><strong>Color:</strong> @Model.Color</p>
 <p><strong>Year:</strong> @Model.Year</p>
 <p><strong>Body Type:</strong> @Model.BodyType</p>
+	<p><strong>Price:</strong> @Model.Price</p>
 
-	<a asp-controller="Cart" asp-action="Add" asp-route-carId="@Model.Id" asp-route-returnUrl="@Context.Request.Path" class="btn btn-secondary">
+	@if (CartService.IsInCart(Model.Id))
+	{
+		<a asp-controller="Cart" asp-action="Remove" asp-route-productId="@Model.Id" asp-route-returnUrl="@Context.Request.Path" class="btn  btn-secondary ">
+			Remove from Cart
+		</a>
+	}
+	else
+	{
+		<a asp-controller="Cart" asp-action="Add" asp-route-carId="@Model.Id" asp-route-returnUrl="@Context.Request.Path" class="btn btn-secondary">
+			Add to Cart
+		</a>
+	}
+	@* <a asp-controller="Cart" asp-action="Add" asp-route-carId="@Model.Id" asp-route-returnUrl="@Context.Request.Path" class="btn btn-secondary">
 		 Add to Cart
-	</a>
-	<a asp-action="Index" class="btn btn-primary">Back</a>
+	</a> *@
+	@if (@ViewBag.ReturnUrl == null)
+	{
+		<a asp-action="Index" class="btn btn-primary">Back</a>
+	}
+	else
+	{
+		<a href="@ViewBag.ReturnUrl" class="btn btn-primary">Back</a>
+	}
+	
 </div>
+
+

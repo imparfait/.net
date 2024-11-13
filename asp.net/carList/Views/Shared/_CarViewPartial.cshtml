@@ -1,4 +1,4 @@
-﻿@using BusinessLogic.Interfaces
+﻿﻿@using BusinessLogic.Interfaces
 
 @model carShop.Entities.Car;
 @inject ICartService CartService
@@ -7,21 +7,26 @@
         <td>@Model.Color</td>
         <td>@Model.Year</td>
         <td>@Model.BodyType</td>
+        <td>@Model.Price $</td>
         <td>
         <a asp-controller="Car" asp-action="Details" asp-route-id="@Model.Id" class="btn btn-dark">Show Details</a>
-        <a asp-controller="Car" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-dark">Edit</a>
-        <a asp-controller="Car" asp-action="ConfirmDelete" asp-route-id="@Model.Id" class="btn btn-dark">Delete</a>
-        @if (CartService.IsInCart(Model.Id))
+        @if (User.IsInRole("Admin"))
         {
-            <a asp-controller="Cart" asp-action="Remove" asp-route-productId="@Model.Id" asp-route-returnUrl="@Context.Request.Path" class="btn  btn-secondary mt-2">
-                Remove from Cart
-            </a>
+            <a asp-controller="Car" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-dark">Edit</a>
+            <a asp-controller="Car" asp-action="ConfirmDelete" asp-route-id="@Model.Id" class="btn btn-dark">Delete</a>
         }
-        else
-        {
-            <a asp-controller="Cart" asp-action="Add" asp-route-productId="@Model.Id" asp-route-returnUrl="@Context.Request.Path" class="btn btn-secondary mt-2">Add to Cart
-            </a>
-        }
+            @if (CartService.IsInCart(Model.Id))
+            {
+                <a asp-controller="Cart" asp-action="Remove" asp-route-productId="@Model.Id" asp-route-returnUrl="@Context.Request.Path" class="btn  btn-secondary ">
+                    Remove from Cart
+                </a>
+            }
+            else
+            {
+                <a asp-controller="Cart" asp-action="Add" asp-route-carId="@Model.Id" asp-route-returnUrl="@Context.Request.Path" class="btn btn-secondary">
+                    Add to Cart
+                </a>
+            }
         </td>
     </tr>
 </div>

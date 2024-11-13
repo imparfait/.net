@@ -31,7 +31,17 @@
     <div class="col-6">
         <button type="submit" class="btn btn-primary w-100">Edit</button>
     </div>
-    <div class="col-6 ">
-        <a asp-action="Index" class="btn btn-primary w-100">Back</a>
-    </div>
+    @if (@ViewBag.ReturnUrl == null)
+    {
+        <div class="col-6 ">
+            <a asp-action="Index" class="btn btn-primary w-100">Back</a>
+        </div>
+    }
+    else
+    {
+        <div class="col-6 ">
+            <a href="@ViewBag.ReturnUrl" class="btn btn-primary w-100">Back</a>
+        </div>
+    }
+    
 </form>

@@ -12,18 +12,6 @@ namespace carShop
         public CarContext(DbContextOptions<CarContext> options) : base(options) { }
         public DbSet<Car> Cars { get; set; }
         public DbSet<Order> Orders { get; set; }
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    base.OnConfiguring(optionsBuilder);
-        //    //optionsBuilder.UseSqlServer(@"Data Source=computer\sqlexpress;
-        //    //                          Initial Catalog=MusicStoreDb;
-        //    //                          Integrated Security=True;
-        //    //                          Connect Timeout=2;
-        //    //                          Encrypt=False;
-        //    //                          Trust Server Certificate=True;
-        //    //                          Application Intent=ReadWrite;
-        //    //                          Multi Subnet Failover=False");
-        //}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 			base.OnModelCreating(modelBuilder);

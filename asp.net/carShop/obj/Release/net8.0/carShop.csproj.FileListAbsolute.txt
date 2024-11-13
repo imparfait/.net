@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\bin\Release\net8.0\carShop.deps.json
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\bin\Release\net8.0\carShop.runtimeconfig.json
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\bin\Release\net8.0\carShop.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\bin\Release\net8.0\carShop.pdb
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Release\net8.0\carShop.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Release\net8.0\carShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Release\net8.0\carShop.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Release\net8.0\carShop.AssemblyInfo.cs
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Release\net8.0\carShop.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Release\net8.0\carShop.sourcelink.json
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Release\net8.0\carShop.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Release\net8.0\refint\carShop.dll
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Release\net8.0\carShop.pdb
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Release\net8.0\carShop.genruntimeconfig.cache
+C:\Users\User\Desktop\бб\dotNET\asp.net\carShop\obj\Release\net8.0\ref\carShop.dll

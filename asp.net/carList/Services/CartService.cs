@@ -49,7 +49,6 @@ namespace carList.Services
 			if (carIds == null) { carIds = new List<int>(); }
 			carIds.Remove(carId);
 			httpContext.Session.SetObject("cart", carIds);
-
         }
 	}
 }

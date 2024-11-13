@@ -18,7 +18,7 @@ namespace carList
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllersWithViews();
 
-            string connString = builder.Configuration.GetConnectionString("LocalDb")!;
+            string connString = builder.Configuration.GetConnectionString("RemoteDb")!;
             builder.Services.AddDbContext<CarContext>(opt => opt.UseSqlServer(connString));
 
             builder.Services.AddIdentity<User, IdentityRole>()
