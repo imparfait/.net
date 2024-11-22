@@ -8,6 +8,8 @@ using FluentValidation;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using carShop.Interfaces;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using carList.Areas.Identity.Pages.Account;
 
 namespace carList
 {
@@ -33,7 +35,12 @@ namespace carList
             builder.Services.AddScoped<ICartService, CartService>();
             builder.Services.AddScoped<IOrderService, OrderService>();
             builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-
+            builder.Services.AddSingleton<IEmailSender>(new EmailSender(
+                smtpServer: "smtp.gmail.com",
+                port: 587,
+                fromEmail: "supersasha.st@gmail.com",
+                password: "uwsq kcqq kltr xzar"
+            ));
             builder.Services.AddSession(options =>
             {
                 options.Cookie.HttpOnly = true;
@@ -47,7 +54,7 @@ namespace carList
                 Seeder.SeedRoles(scope.ServiceProvider).Wait();
                 Seeder.SeedAdmin(scope.ServiceProvider).Wait();
             }
-
+            
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
@@ -61,7 +68,7 @@ namespace carList
 
 //            app.UseAuthentication();
             app.UseAuthorization();
-
+            app.MapRazorPages();
             app.UseSession();
 
             app.MapControllerRoute(

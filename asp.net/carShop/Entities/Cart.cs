@@ -13,6 +13,6 @@ namespace carShop.Entities
 
     public partial class Cart
     {
-        public ICollection<Car> Cars { get; set; }
+        public ICollection<Car>? Cars { get; set; }
     }
 }

@@ -13,5 +13,6 @@ namespace BusinessLogic.Interfaces
 		void Add(int carId);
 		void Remove(int carId);
 		bool IsInCart(int carId);
-	}
+        void ClearCart();
+    }
 }

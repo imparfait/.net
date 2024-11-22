@@ -2,6 +2,7 @@
 using carShop;
 using carShop.Entities;
 using carShop.Migrations;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System.Runtime.CompilerServices;
 
@@ -50,5 +51,12 @@ namespace carList.Services
 			carIds.Remove(carId);
 			httpContext.Session.SetObject("cart", carIds);
         }
-	}
+        public void ClearCart()
+        {
+            var carIds = httpContext.Session.GetObject<List<int>>("cart");
+            if (carIds == null) { carIds = new List<int>(); }
+            carIds.Clear();
+            httpContext.Session.SetObject("cart", carIds);
+        }
+    }
 }

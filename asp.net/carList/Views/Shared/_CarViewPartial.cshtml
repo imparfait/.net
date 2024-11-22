@@ -11,13 +11,13 @@
         <td>
         <a asp-controller="Car" asp-action="Details" asp-route-id="@Model.Id" class="btn btn-dark">Show Details</a>
         @if (User.IsInRole("Admin"))
-        {
+        { 
             <a asp-controller="Car" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-dark">Edit</a>
             <a asp-controller="Car" asp-action="ConfirmDelete" asp-route-id="@Model.Id" class="btn btn-dark">Delete</a>
-        }
+        } 
             @if (CartService.IsInCart(Model.Id))
             {
-                <a asp-controller="Cart" asp-action="Remove" asp-route-productId="@Model.Id" asp-route-returnUrl="@Context.Request.Path" class="btn  btn-secondary ">
+                <a asp-controller="Cart" asp-action="Remove" asp-route-carId="@Model.Id" asp-route-returnUrl="@Context.Request.Path" class="btn btn-secondary ml-1">
                     Remove from Cart
                 </a>
             }

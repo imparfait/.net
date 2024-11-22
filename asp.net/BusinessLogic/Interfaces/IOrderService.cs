@@ -10,6 +10,6 @@ namespace BusinessLogic.Interfaces
     public interface IOrderService
     {
         IEnumerable<Order> GetAll(string userId);
-        void Create(string userId);
+        Task CreateAsync(string userId, string userEmail);
     }
 }

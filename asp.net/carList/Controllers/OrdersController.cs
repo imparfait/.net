@@ -17,11 +17,18 @@ namespace carList.Controllers
             return View(orderService.GetAll(GetUseId()));
         }
 
-        public IActionResult Create()
-        {
-            orderService.Create(GetUseId());
+        public async Task<IActionResult> Create()
+            {
+                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                var userEmail = User.FindFirstValue(ClaimTypes.Email);
+                if (string.IsNullOrEmpty(userEmail))
+                {
+                    return BadRequest("Email not found for the user.");
+                }
 
-            return RedirectToAction(nameof(Index));
-        }
+                await orderService.CreateAsync(userId, userEmail);
+
+                return RedirectToAction(nameof(Index));
+           }
     }
 }

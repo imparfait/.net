@@ -19,6 +19,7 @@ namespace carList.Controllers
         [AllowAnonymous]
         public IActionResult Index()
         {
+
             return View(service.GetAll());
         }
         public IActionResult ConfirmDelete(int id)

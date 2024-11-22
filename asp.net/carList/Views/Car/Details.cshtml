@@ -12,7 +12,7 @@
 
 	@if (CartService.IsInCart(Model.Id))
 	{
-		<a asp-controller="Cart" asp-action="Remove" asp-route-productId="@Model.Id" asp-route-returnUrl="@Context.Request.Path" class="btn  btn-secondary ">
+		<a asp-controller="Cart" asp-action="Remove" asp-route-carId="@Model.Id" asp-route-returnUrl="@Context.Request.Path" class="btn btn-secondary ml-1">
 			Remove from Cart
 		</a>
 	}

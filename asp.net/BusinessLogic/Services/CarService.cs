@@ -53,5 +53,9 @@ namespace BusinessLogic.Services
 			if (car == null) { return null; }
 			return car;
 		}
-	}
+        //public async Task<IEnumerable<Car>> GetCars()
+        //{
+        //    return await context.Cars.ToListAsync();
+        //}
+    }
 }
